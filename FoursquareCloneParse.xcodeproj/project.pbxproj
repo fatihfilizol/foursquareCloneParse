@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED3C5001D6251034F93A241B /* Pods_FoursquareCloneParse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DF14BBDE3C2B85489CE2FC /* Pods_FoursquareCloneParse.framework */; };
 		FB6CAF4628B24ED10056DF2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6CAF4528B24ED10056DF2C /* AppDelegate.swift */; };
 		FB6CAF4828B24ED10056DF2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6CAF4728B24ED10056DF2C /* SceneDelegate.swift */; };
-		FB6CAF4A28B24ED10056DF2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6CAF4928B24ED10056DF2C /* ViewController.swift */; };
+		FB6CAF4A28B24ED10056DF2C /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6CAF4928B24ED10056DF2C /* SignUpVC.swift */; };
 		FB6CAF4D28B24ED10056DF2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6CAF4B28B24ED10056DF2C /* Main.storyboard */; };
 		FB6CAF4F28B24ED30056DF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6CAF4E28B24ED30056DF2C /* Assets.xcassets */; };
 		FB6CAF5228B24ED30056DF2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6CAF5028B24ED30056DF2C /* LaunchScreen.storyboard */; };
+		FB6CAF5B28B26A0D0056DF2C /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6CAF5A28B26A0D0056DF2C /* PlacesViewController.swift */; };
+		FB6CAF5D28B271C70056DF2C /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6CAF5C28B271C70056DF2C /* AddPlaceVC.swift */; };
+		FB6CAF5F28B273580056DF2C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6CAF5E28B273580056DF2C /* MapViewController.swift */; };
+		FB6CAF6128B278700056DF2C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6CAF6028B278700056DF2C /* DetailsViewController.swift */; };
+		FB6CAF6328B27C0C0056DF2C /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6CAF6228B27C0C0056DF2C /* PlaceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F91AA1AB7074C4234890CE9 /* Pods-FoursquareCloneParse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareCloneParse.release.xcconfig"; path = "Target Support Files/Pods-FoursquareCloneParse/Pods-FoursquareCloneParse.release.xcconfig"; sourceTree = "<group>"; };
+		A1DF14BBDE3C2B85489CE2FC /* Pods_FoursquareCloneParse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoursquareCloneParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0440C8116B881564266FC2 /* Pods-FoursquareCloneParse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareCloneParse.debug.xcconfig"; path = "Target Support Files/Pods-FoursquareCloneParse/Pods-FoursquareCloneParse.debug.xcconfig"; sourceTree = "<group>"; };
 		FB6CAF4228B24ED10056DF2C /* FoursquareCloneParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoursquareCloneParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6CAF4528B24ED10056DF2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB6CAF4728B24ED10056DF2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB6CAF4928B24ED10056DF2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB6CAF4928B24ED10056DF2C /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		FB6CAF4C28B24ED10056DF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB6CAF4E28B24ED30056DF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB6CAF5128B24ED30056DF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB6CAF5328B24ED30056DF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6CAF5A28B26A0D0056DF2C /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		FB6CAF5C28B271C70056DF2C /* AddPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceVC.swift; sourceTree = "<group>"; };
+		FB6CAF5E28B273580056DF2C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FB6CAF6028B278700056DF2C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FB6CAF6228B27C0C0056DF2C /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3C5001D6251034F93A241B /* Pods_FoursquareCloneParse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		300658C5065A710190CEF24E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1DF14BBDE3C2B85489CE2FC /* Pods_FoursquareCloneParse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BDD9643B3B8047F6455978A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD0440C8116B881564266FC2 /* Pods-FoursquareCloneParse.debug.xcconfig */,
+				2F91AA1AB7074C4234890CE9 /* Pods-FoursquareCloneParse.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FB6CAF3928B24ED10056DF2C = {
 			isa = PBXGroup;
 			children = (
 				FB6CAF4428B24ED10056DF2C /* FoursquareCloneParse */,
 				FB6CAF4328B24ED10056DF2C /* Products */,
+				6BDD9643B3B8047F6455978A /* Pods */,
+				300658C5065A710190CEF24E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +92,16 @@
 			children = (
 				FB6CAF4528B24ED10056DF2C /* AppDelegate.swift */,
 				FB6CAF4728B24ED10056DF2C /* SceneDelegate.swift */,
-				FB6CAF4928B24ED10056DF2C /* ViewController.swift */,
+				FB6CAF4928B24ED10056DF2C /* SignUpVC.swift */,
 				FB6CAF4B28B24ED10056DF2C /* Main.storyboard */,
 				FB6CAF4E28B24ED30056DF2C /* Assets.xcassets */,
 				FB6CAF5028B24ED30056DF2C /* LaunchScreen.storyboard */,
 				FB6CAF5328B24ED30056DF2C /* Info.plist */,
+				FB6CAF5A28B26A0D0056DF2C /* PlacesViewController.swift */,
+				FB6CAF5C28B271C70056DF2C /* AddPlaceVC.swift */,
+				FB6CAF5E28B273580056DF2C /* MapViewController.swift */,
+				FB6CAF6028B278700056DF2C /* DetailsViewController.swift */,
+				FB6CAF6228B27C0C0056DF2C /* PlaceModel.swift */,
 			);
 			path = FoursquareCloneParse;
 			sourceTree = "<group>";
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB6CAF5628B24ED30056DF2C /* Build configuration list for PBXNativeTarget "FoursquareCloneParse" */;
 			buildPhases = (
+				9D5C43296CF85D027D499519 /* [CP] Check Pods Manifest.lock */,
 				FB6CAF3E28B24ED10056DF2C /* Sources */,
 				FB6CAF3F28B24ED10056DF2C /* Frameworks */,
 				FB6CAF4028B24ED10056DF2C /* Resources */,
+				97E73A2A26BC0DDE793D325C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +174,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		97E73A2A26BC0DDE793D325C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoursquareCloneParse/Pods-FoursquareCloneParse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoursquareCloneParse/Pods-FoursquareCloneParse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoursquareCloneParse/Pods-FoursquareCloneParse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D5C43296CF85D027D499519 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoursquareCloneParse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB6CAF3E28B24ED10056DF2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB6CAF4A28B24ED10056DF2C /* ViewController.swift in Sources */,
+				FB6CAF5B28B26A0D0056DF2C /* PlacesViewController.swift in Sources */,
+				FB6CAF6328B27C0C0056DF2C /* PlaceModel.swift in Sources */,
+				FB6CAF5F28B273580056DF2C /* MapViewController.swift in Sources */,
+				FB6CAF4A28B24ED10056DF2C /* SignUpVC.swift in Sources */,
 				FB6CAF4628B24ED10056DF2C /* AppDelegate.swift in Sources */,
+				FB6CAF6128B278700056DF2C /* DetailsViewController.swift in Sources */,
+				FB6CAF5D28B271C70056DF2C /* AddPlaceVC.swift in Sources */,
 				FB6CAF4828B24ED10056DF2C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +370,7 @@
 		};
 		FB6CAF5728B24ED30056DF2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0440C8116B881564266FC2 /* Pods-FoursquareCloneParse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +399,7 @@
 		};
 		FB6CAF5828B24ED30056DF2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F91AA1AB7074C4234890CE9 /* Pods-FoursquareCloneParse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
